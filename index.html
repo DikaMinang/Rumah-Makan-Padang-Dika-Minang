@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Nasi Padang Dika Minang</title>
+
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--feather icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--my style-->
+    <link rel="stylesheet" href="/css/style.css" />
+  
+  </head>
+  <body>
+    <!--navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Dika<span>Minang</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" class="shopping-cart">
+          <i data-feather="shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    
+    <!--navbar end-->
+
+    <!--hero section start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Nikmatnya Masakan <span>Padang</span></h1>
+        <p>
+          Rasakan kelezatan masakan Padang asli dengan bumbu rempah pilihan dan resep turun temurun yang khas
+        </p>
+        <a href="#menu" class="cta">Lihat Menu</a>
+      </main>
+    </section>
+    <!--hero section end-->
+
+    <!--about section start-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/Logo Dika Minang.jpg" alt="Logo Dika Minang" />
+        </div>
+        <div class="content">
+          <h3>Warung Nasi Padang Dika Minang</h3>
+          <p>
+            Warung Nasi Padang Dika Minang hadir dengan cita rasa asli masakan Padang yang dibuat dengan bumbu-bumbu pilihan dan rempah berkualitas. Kami menyajikan berbagai menu khas Padang yang dimasak oleh koki berpengalaman dari Padang.
+          </p>
+          <p>
+            Semua masakan kami diolah dengan resep turun temurun dan dijamin kehalalannya. Kami mengutamakan kebersihan dan kualitas bahan makanan untuk memberikan pengalaman kuliner terbaik bagi pelanggan kami.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--about section end-->
+
+    <!--Menu section start-->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Berbagai pilihan menu masakan Padang authentic dengan harga terjangkau
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/produk/makanan/Ayam Bakar.jpg" alt="Ayam Bakar" />
+          <h3 class="menu-card-title">Ayam Bakar</h3>
+          <p class="menu-card-price">IDR 13.000</p>
+          <button class="btn-pesan" 
+                  data-id="ayam-bakar"
+                  data-name="Ayam Bakar"
+                  data-price="13000"
+                  data-image="img/produk/makanan/Ayam Bakar.jpg">
+            Pesan Sekarang
+          </button>
+        </div>
+        <div class="menu-card">
+          <img src="img/produk/makanan/Ayam Goreng.jpg" alt="Ayam Goreng" />
+          <h3 class="menu-card-title">Ayam Goreng</h3>
+          <p class="menu-card-price">IDR 13.000</p>
+          <button class="btn-pesan" 
+                  data-id="ayam-goreng"
+                  data-name="Ayam Goreng"
+                  data-price="13000"
+                  data-image="img/produk/makanan/Ayam Goreng.jpg">
+            Pesan Sekarang
+          </button>
+        </div>
+        <div class="menu-card">
+          <img src="img/produk/makanan/Ayam Gulai.jpg" alt="Ayam Gulai" />
+          <h3 class="menu-card-title">Ayam Gulai</h3>
+          <p class="menu-card-price">IDR 13.000</p>
+          <button class="btn-pesan" 
+                  data-id="ayam-gulai"
+                  data-name="Ayam Gulai"
+                  data-price="13000"
+                  data-image="img/produk/makanan/Ayam Gulai.jpg">
+            Pesan Sekarang
+          </button>
+        </div>
+        <div class="menu-card">
+          <img src="img/produk/makanan/Bawal Bakar.jpg" alt="Bawal Bakar" />
+          <h3 class="menu-card-title">Bawal Bakar</h3>
+          <p class="menu-card-price">IDR 13.000</p>
+          <button class="btn-pesan" 
+                  data-id="bawal-bakar"
+                  data-name="Bawal Bakar"
+                  data-price="13000"
+                  data-image="img/produk/makanan/Bawal Bakar.jpg">
+            Pesan Sekarang
+          </button>
+        </div>
+        <div class="menu-card">
+          <img src="img/produk/makanan/Kembung Bakar.jpg" alt="Kembung Bakar" />
+          <h3 class="menu-card-title">Kembung Bakar</h3>
+          <p class="menu-card-price">IDR 13.000</p>
+          <button class="btn-pesan" 
+                  data-id="kembung-bakar"
+                  data-name="Kembung Bakar"
+                  data-price="13000"
+                  data-image="img/produk/makanan/Kembung Bakar.jpg">
+            Pesan Sekarang
+          </button>
+        </div>
+        <div class="menu-card">
+          <img src="img/produk/makanan/Lele Goreng.jpg" alt="Lele Goreng" />
+          <h3 class="menu-card-title">Lele Goreng</h3>
+          <p class="menu-card-price">IDR 13.000</p>
+          <button class="btn-pesan" 
+                  data-id="lele-goreng"
+                  data-name="Lele Goreng"
+                  data-price="13000"
+                  data-image="img/produk/makanan/Lele Goreng.jpg">
+            Pesan Sekarang
+          </button>
+        </div>
+        <div class="menu-card">
+          <img src="img/produk/makanan/Rendang.jpg" alt="Rendang" />
+          <h3 class="menu-card-title">Rendang</h3>
+          <p class="menu-card-price">IDR 13.000</p>
+          <button class="btn-pesan" 
+                  data-id="rendang"
+                  data-name="Rendang"
+                  data-price="13000"
+                  data-image="img/produk/makanan/Rendang.jpg">
+            Pesan Sekarang
+          </button>
+        </div>
+        <div class="menu-card">
+          <img src="img/produk/makanan/Telor Dadar.jpg" alt="Telor Dadar" />
+          <h3 class="menu-card-title">Telor Dadar</h3>
+          <p class="menu-card-price">IDR 11.000</p>
+          <button class="btn-pesan" 
+                  data-id="telor-dadar"
+                  data-name="Telor Dadar"
+                  data-price="11000"
+                  data-image="img/produk/makanan/Telor Dadar.jpg">
+            Pesan Sekarang
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--Menu section end-->
+
+    <!--contact section start-->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Hubungi kami untuk pemesanan dan informasi lebih lanjut
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.896658104899!2d106.54897167411268!3d-6.1445808602323275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ffc1afa1b865%3A0x7361914f9d28cbf6!2sRumah%20Makan%20Dika%20Minang!5e0!3m2!1sid!2sid!4v1733204386816!5m2!1sid!2sid"
+          width="100%"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map">
+        </iframe>
+
+        <form action="https://formsubmit.co/dikaminang51@gmail.com" method="POST">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" name="name" placeholder="Nama" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" name="phone" placeholder="Nomor HP" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <textarea name="message" placeholder="Pesan Anda" required></textarea>
+          </div>
+          
+          <input type="hidden" name="_subject" value="Pesan Baru dari Website Dika Minang">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html#contact">
+          
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!--contact section end-->
+
+    <!--footer start-->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/bayudifara/" target="_blank">
+          <i data-feather="instagram"></i>
+        </a>
+        <a href="https://x.com/RMDikaMinang" target="_blank"><i data-feather="twitter"></i></a>
+        <a href="https://www.facebook.com/share/p/14bkxSLvNL/" target="_blank"><i data-feather="facebook"></i></a>
+      </div>
+    </footer>
+
+    <div class="links">
+      <a href="#home">Beranda</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+    <div class="credit">
+      <p>created by <a href="">FerdiAdrianYudistira</a>. | &copy; 2024.</p>
+    </div>
+    <!--footer end-->
+
+    <!--feather icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--my javascript-->
+    <script src="script.js"></script>
+
+    <!-- Modal untuk pemesanan -->
+    <div id="cartModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Pilih Jumlah Pesanan</h3>
+          <span class="close">&times;</span>
+        </div>
+        
+        <div class="product-info">
+          <div class="product-image">
+            <img id="modalProductImage" src="" alt="Product Image">
+          </div>
+          <div class="product-details">
+            <h4 id="modalProductName"></h4>
+            <p class="price" id="modalProductPrice"></p>
+          </div>
+        </div>
+
+        <div class="quantity-selector">
+          <button class="qty-btn minus" onclick="decreaseQty()">-</button>
+          <input type="number" id="quantity" value="1" min="1" readonly>
+          <button class="qty-btn plus" onclick="increaseQty()">+</button>
+        </div>
+
+        <div class="total-section">
+          <p>Total:</p>
+          <p id="modalTotal" class="total-price"></p>
+        </div>
+
+        <button class="add-to-cart-btn" onclick="addToCart()">
+          <i data-feather="shopping-cart"></i>
+          Tambah ke Keranjang
+        </button>
+      </div>
+    </div>
+
+    <!-- Shopping Cart Panel -->
+    <div id="cartPanel" class="cart-panel">
+      <div class="cart-header">
+        <h3>Keranjang Belanja</h3>
+        <button class="close-cart" onclick="closeCart()">&times;</button>
+      </div>
+
+      <div class="cart-items" id="cartItems">
+        <!-- Cart items will be inserted here dynamically -->
+      </div>
+
+      <div class="cart-footer">
+        <div class="cart-total">
+            <span>Total Pesanan:</span>
+            <span id="cartTotal">IDR 0</span>
+        </div>
+        <button class="checkout-btn" onclick="checkoutViaWhatsApp()">
+            <i data-feather="shopping-bag"></i>
+            Checkout via WhatsApp
+        </button>
+        <button class="cancel-btn" onclick="closeCart()">
+            Batal
+        </button>
+    </div>
+    </div>
+    <script src='js/script.js'></script>
+  </body>
+</html>
