@@ -1,2 +1,2 @@
-# Profil_perusahaan_RMDikaMinang
+# Rumah Makan Padang Dika Minang
 
