@@ -1548,4 +1548,43 @@ body.cart-open {
     color: white;
 }
 
+.btn-gofood {
+  display: inline-block;
+  padding: 15px 30px; /* Perbesar padding */
+  background-color: #ff5722; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  font-size: 18px; /* Ukuran font */
+  border: none; /* Hapus border */
+  border-radius: 5px; /* Sudut membulat */
+  text-align: center; /* Pusatkan teks */
+  text-decoration: none; /* Hapus garis bawah */
+  transition: background-color 0.3s; /* Efek transisi */
+}
+
+.btn-gofood:hover {
+  background-color: #e64a19; /* Warna latar belakang saat hover */
+}
+
+.order-gofood {
+  text-align: center; /* Pusatkan konten di dalam div */
+  margin: 20px 0; /* Tambahkan margin atas dan bawah */
+}
+
+.btn-gofood {
+  display: inline-block;
+  padding: 15px 30px; /* Perbesar padding */
+  background-color: #ff5722; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  font-size: 18px; /* Ukuran font */
+  border: none; /* Hapus border */
+  border-radius: 5px; /* Sudut membulat */
+  text-align: center; /* Pusatkan teks */
+  text-decoration: none; /* Hapus garis bawah */
+  transition: background-color 0.3s; /* Efek transisi */
+}
+
+.btn-gofood:hover {
+  background-color: #e64a19; /* Warna latar belakang saat hover */
+}
+
 
