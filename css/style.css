@@ -426,7 +426,7 @@ footer .socials a:hover {
 }
 
 .contact .row .map {
-  flex: 1 1 30rem;
+  flex: 1 1 30rem;  
   width: 100%;
   object-fit: cover;
 }
