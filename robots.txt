@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://dikaminang.github.io/Rumah-Makan-Padang-Dika-Minang/sitemap.xml
